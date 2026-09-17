@@ -1,0 +1,19 @@
+
+
+Siempre que añadas uno nuevo tipo de dato en el front para definir como se muestra.
+Hay que definirlo en el modelo del back y además allí en el seed se define la ruta del archivo
+
+Después ejecutamos el comando npm run seed , en la consola del back para actualizar la base de datos de Mongo Atlas
+
+
+Proyectos:
+
+TurboPoint
+DevCard
+CromePlay
+Social Home
+Popular Groups
+
+BitSchool
+BluePay
+3DImpresion
