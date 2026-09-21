@@ -52,10 +52,10 @@ public class GraphService
     public async Task<string> GetDevCardAsync()
     {
         // Id del sitio SharePoint
-        string siteId = "e359f893-80cd-4c43-80ff-cdad34857683";
+        string siteId = _configuration["SiteId"]!;
 
         // Id de la lista DevCard
-        string listId = "5339a1ce-dfb6-4213-a985-7aeee4f6308f";
+        string listId = _configuration["ListId"]!;
 
         // Recuperamos el elemento con ID 1
         var item = await _graphClient

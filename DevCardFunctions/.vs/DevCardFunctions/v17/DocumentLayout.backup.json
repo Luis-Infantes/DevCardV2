@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|c:\\tajamar\\devcard02\\devcardfunctions\\devcardfunctions\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|solutionrelative:devcardfunctions\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|c:\\tajamar\\devcard02\\devcardfunctions\\devcardfunctions\\services\\graphservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|solutionrelative:devcardfunctions\\services\\graphservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|c:\\tajamar\\devcard02\\devcardfunctions\\devcardfunctions\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|solutionrelative:devcardfunctions\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|c:\\tajamar\\devcard02\\devcardfunctions\\devcardfunctions\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|solutionrelative:devcardfunctions\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|c:\\tajamar\\devcard02\\devcardfunctions\\devcardfunctions\\host.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|c:\\tajamar\\devcard02\\devcardfunctions\\devcardfunctions\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|solutionrelative:devcardfunctions\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|c:\\tajamar\\devcard02\\devcardfunctions\\devcardfunctions\\services\\graphservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|solutionrelative:devcardfunctions\\services\\graphservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\.gitignore",
               "RelativeDocumentMoniker": "DevCardFunctions\\.gitignore",
@@ -51,8 +51,7 @@
               "ViewState": "AgIAAOoAAAAAAAAAAAAAAAsBAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-09-17T15:59:42.628Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -62,10 +61,24 @@
               "RelativeDocumentMoniker": "DevCardFunctions\\local.settings.json",
               "ToolTip": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\local.settings.json",
               "RelativeToolTip": "DevCardFunctions\\local.settings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-09-10T11:50:50.582Z",
               "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GraphService.cs",
+              "DocumentMoniker": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\Services\\GraphService.cs",
+              "RelativeDocumentMoniker": "DevCardFunctions\\Services\\GraphService.cs",
+              "ToolTip": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\Services\\GraphService.cs",
+              "RelativeToolTip": "DevCardFunctions\\Services\\GraphService.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAgwDkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-11T16:21:28.003Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -125,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "host.json",
               "DocumentMoniker": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\host.json",
               "RelativeDocumentMoniker": "DevCardFunctions\\host.json",
@@ -137,19 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GraphService.cs",
-              "DocumentMoniker": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\Services\\GraphService.cs",
-              "RelativeDocumentMoniker": "DevCardFunctions\\Services\\GraphService.cs",
-              "ToolTip": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\Services\\GraphService.cs",
-              "RelativeToolTip": "DevCardFunctions\\Services\\GraphService.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAgwDIAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-11T16:21:28.003Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\Program.cs",
               "RelativeDocumentMoniker": "DevCardFunctions\\Program.cs",
@@ -161,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "DevCardFunctions\\Properties\\launchSettings.json",
@@ -173,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Function1.cs",
               "DocumentMoniker": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\Function1.cs",
               "RelativeDocumentMoniker": "DevCardFunctions\\Function1.cs",
