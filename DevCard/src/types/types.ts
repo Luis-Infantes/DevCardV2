@@ -1,17 +1,28 @@
 
+//-----------------TITLE & DESCRIPTION-----------------------
+
+export type Title = {
+
+    title: string;
+    description: string;
+    
+}
+
+export type TitleProps = {
+
+    data: Title
+}
+
+//-------------PRESENTATION-----------------------------------
 
 export type Intro = {
 
     fullname: string;
     title: string;
     description: string;
-    powerPlatformCertification: string;
-    azureCertification: string;
-    awsCertification: string;
     avatarimg: string; 
-    email: string;
-    linkedin: string;
-    github: string;
+    link: string;
+
 }
 
 
@@ -23,7 +34,50 @@ export type IntroProps = {
 
 
 
-//-----------------------------------------------------
+
+//-------------CERTIFICACIONS---------------------------------------
+
+
+export type Certification = {
+
+
+    id: string;
+    title: string;
+    image: string;
+    date: string;
+    link: string;
+
+}
+
+export type CertificationProps = {
+
+    certifications: Certification[];
+}
+
+
+
+
+
+
+//----------SKILLS-------------------------------------------
+
+export type Skill = {
+    id: string;
+    name: string;
+    category: string;
+    image: string;
+}
+
+export type SkillProps = {
+    skills: Skill[];
+}
+
+
+
+
+
+
+//-------------PROJECTS----------------------------------------
 
 
 export type Project = {
@@ -35,7 +89,7 @@ export type Project = {
     link: string;
     linkvideo: string;
     image: string;
-    slug: string; // identificador de cada proyecto
+ 
 }
 
 
@@ -47,152 +101,96 @@ export type ProjectProps = {
 
 
 
+//--------------PROFESIONAL TRAJECTORY---------------
+
+export type ProfessionalTrayectory = {
+
+    id: string;
+    img: string;
+    date: string;
+    description: string;
+}
+
+export type ProfessionalTrajectoryProps = {
+
+    data: ProfessionalTrayectory[]; 
+}
 
 
-//-----------------------------------------------------
 
-export type ProjectCloud = {
+
+//-------------- FORMAL EDUCATION--------------------------------------------------
+
+
+export type FormalEducation = {
 
     id: string;
     title: string;
     description: string;
-    tech: string[];
+    date: string;
     link: string;
-    linkvideo: string;
     image: string;
-    slug: string; // identificador de cada proyecto
+   
+}
+
+export type FormalEducationProps = {
+
+    formaleducation: FormalEducation[];
 }
 
 
-export type ProjectCloudProps = {
-
-    projectscloud: ProjectCloud[];
-}
+//-----------------ADDITIONAL TRAINING ---------------------------------------------------
 
 
-
-
-
-//------------------------------------------------------
-
-export type ProjectPrimer = {
+export type AdditionalTraining = {
 
     id: string;
     title: string;
     description: string;
-    tech: string[];
+    date: string;
     link: string;
-    linkvideo: string;
     image: string;
-    slug: string; // identificador de cada proyecto
-}
-
-
-export type ProjectPrimerProps = {
-
-    projectsprimer: ProjectPrimer[];
-}
-
-
-
-
-//----------------------------------------------------------------
-
-
-export type Education = {
-
-    id: string;
-    title: string;
-    description: string;
-    startdate: string;
-    link: string;
-    center: string;
     slug: string; // identificador de cada centro
 }
 
-export type EducationProps = {
+export type AdditionalTrainingProps = {
 
-    educations: Education[];
+    additionaltraining: AdditionalTraining[];
 }
 
 
-//-----------------------------------------------------
 
-export type skillFront = {
+
+
+//------------------LANGUAGES-----------------------------------
+
+
+export type Language = {
+    id: string;
+    title: string;
+    level: string;
+    image: string;
+    link: string;
+}
+
+export type LanguageProps = {
+    languages: Language[];
+}
+
+
+//------------------NETWORKS-----------------------------------
+
+export type Network = {
 
     id: string;
-    name: string;
-    level: "Basic" | "Advanced" | "Expert";
-    category: String;
+    title: string;
     image: string;
+    link: string;
 }
 
-export type SkillFrontProps = {
-
-    skillsFront: skillFront[];
-
+export type NetworkProps = {
+    networks: Network[];
 }
-
-//-----------------------------------------------------
-
-
-
-export type skillBack = {
-
-    id: string;
-    name: string;
-    level: "Basic" | "Advanced" | "Expert";
-    category: String;
-    image: string;
-}
-
-export type SkillBackProps = {
-
-    skillsBack: skillBack[];
-
-}
-
-
-//-----------------------------------------------------
-
-
-
-export type skillCloud = {
-
-    id: string;
-    name: string;
-    level: "Basic" | "Advanced" | "Expert";
-    category: String;
-    image: string;
-}
-
-export type SkillCloudProps = {
-
-    skillsCloud: skillCloud[];
-
-}
-
-
-//-----------------------------------------------------
-
-
-export type skillTool = {
-
-    id: string;
-    name: string;
-    level: "Basic" | "Advanced" | "Expert";
-    category: String;
-    image: string;
-}
-
-export type SkillToolProps = {
-
-    skillsTool: skillTool[];
-
-}
-
-
-//-----------------------------------------------------
 
 
 

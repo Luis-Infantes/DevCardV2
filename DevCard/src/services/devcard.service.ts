@@ -4,7 +4,7 @@
 
 export async function getDevCard() {
 
-    const res = await fetch("http://localhost:7071/api/devcard");
+    const res = await fetch("https://devcardfuntions2026-hqasc0gcbkbxdnf8.swedencentral-01.azurewebsites.net/api/devcard");
 
     if (!res.ok) return console.error("Error al cargar DevCard");
 

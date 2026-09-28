@@ -11,35 +11,6 @@ body {
 }
 
 
-.Project-Style {
-    background-color: #7a7c7d;
-    border: 2px solid #0d2135;
-    margin-left: 12px;
-    margin-top: 10px;
-    width: 100%;
-}
-
-    .Project-Style:hover {
-        background-color: #535455;
-        border: 2px solid #05defc;
-    }
-
-
-.Button-Style {
-    background-color: #7a7c7d;
-    border: 2px solid #213547;
-    margin-left: 12px;
-    margin-top: 10px;
-    width: 150px;
-}
-
-    .Button-Style:hover {
-        background-color: #535455;
-        border: 2px solid #7db5cb;
-    }
-
-
-
 .container {
     margin-top: 20px;
     align-items: center;
@@ -48,34 +19,360 @@ body {
 }
 
 
+.custom-card {
+    background-image: url("/image/background2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid #94a0ad;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+    color: #35648f;
+    margin-bottom: 20px;
+}
+
+.custom-card h2 {
+
+    margin-bottom: 25px;
+    font-weight:bold;
+}
 
 
-/*--PROJECTS STYLES--*/
+/*--------TITLE-STYLES--------*/
 
-.projects-grid {
+
+.title-card {
+    background-image: url("/image/BackgroundBase.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid #94a0ad;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+    color: #35648f;
+    margin-bottom: 20px;
+}
+
+/*------------------------------------------------*/
+
+
+/*--------INTRO-STYLES--------*/
+
+.avatar-icon {
+    width: 180px;
+    height: 180px;
+}
+
+.introcard-style h5 {
+    font-weight:bold;
+}
+
+
+/*----------CERTIFICATION-STYLES---------------------*/
+.certification-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
+    grid-template-columns: repeat(4, 1fr);
+}
 
+
+.card-certification {
+    padding: 15px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+    .card-certification h6 {
+
+        font-weight:bold;
+    }
+
+
+
+    .certification-icon {
+        width: 130px;
+        height: 130px;
+    }
+
+
+
+
+/*----------------SKILLS-STYLES-----------------*/
+
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
    
 }
 
 
-.introcard-grid-info {
 
-    grid-template-columns: repeat(2, 1fr);
-    margin-bottom: 10px;
-  
+
+
+.skill-card {
+    border: 2px solid #35648f;
+    border-radius: 15px;
+    padding: 20px;
+    height: 100%;
+    background-color: #c1c1c1;
+}
+
+    .skill-card h3 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+    .skill-list li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     
+        
+    }
+
+
+.skill-style {
+    border: 2px solid #35648f;
+    border-radius: 15px;
+    padding: 20px;
+    height: 100%;
+    background-color: #c1c1c1;
+   
 }
 
 
-.introcard-grid-redes {
+    .skill-style h5 {
+
+        width: 130px;
+        margin-top: 5px;
+        
+        
+    }
+
+
+
+
+
+.skill-icon {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+/*------------PROJECT-STYLES---------------------*/
+
+
+.projects-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
-    margin-bottom: 10px;
-    
+
+
+
+   
 }
+
+.project-card {
+    border: 2px solid #35648f;
+    border-radius: 15px;
+    padding: 20px;
+    height: 100%;
+    background-color: #c1c1c1;
+}
+
+    .project-card h5, h6 {
+        font-weight: bold;
+    }
+
+
+    .project-card p {
+    
+        margin-top: 10px;
+    }
+
+
+
+    .project-img {
+        width: 400px;
+        height: 290px;
+        border: 2px solid #35648f;
+    }
+
+
+
+
+    .tech-icon {
+        width: 40px;
+        height: 40px;
+        margin: 5px 0 30px 15px;
+    }
+
+    .project-card a {
+        margin-left: 15px;
+        width: 200px;
+        margin-top: 10px;
+    }
+
+
+
+/*----------------PROFESSIONAL TRAJECTORY--------------------------------*/
+
+.professional-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.professional-grid h5 {
+    
+    font-weight:bold;
+}
+
+
+.professional-icon {
+    width: 100px;
+    height: 100px;
+}
+
+/*----------------FORMAL EDUCATION---------------------------*/
+
+.education-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
+}
+
+
+.card-education {
+    padding: 15px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.card-education h5 {
+    font-weight:bold;
+}
+
+
+.education-icon {
+    width: 130px;
+    height: 130px;
+}
+
+
+
+/*----------------ADDITIONAL TRAINING---------------------------*/
+
+.training-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
+}
+
+
+.card-training {
+    padding: 15px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+    .card-training h5 {
+        font-weight: bold;
+    }
+
+
+.training-icon {
+    width: 130px;
+    height: 130px;
+}
+
+
+
+
+
+
+
+/*----------------LANGUAGES---------------------------*/
+
+.language-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
+}
+
+
+.card-language {
+    padding: 15px;
+    text-align: center;
+    border-radius: 6px;
+
+}
+
+    .card-language h5 {
+        margin: 0;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom:5px;
+    }
+
+
+.language-icon {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+/*--------------------NETWORKS-------------------------------------*/
+
+
+.network-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+
+.card-network {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    border: 2px solid #35648f;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #c1c1c1;
+}
+
+    .card-network h5 {
+        margin: 0;
+        font-weight: bold;
+        text-align: center;
+    }
+
+
+.network-icon {
+    width: 60px;
+    height: 60px;
+}
+
+
+
+/*---------------------------------------------------------*/
+
+
 
 
 
@@ -83,8 +380,17 @@ body {
 
 @media (max-width: 1000px) {
     .projects-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         
+    }
+
+    .certification-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .professional-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .Project-Style h4 {
@@ -142,6 +448,17 @@ body {
 }
 
 
+/*------skills--------*/
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -164,82 +481,16 @@ body {
 
 
 
-.custom-card {
-
-    background-image: url("/image/BackgroundBase.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border: 2px solid #94a0ad;
-    border-radius: 16px;
-    padding: 20px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
-    color: #35648f;
-    margin-bottom: 20px;
-}
-
-
-
-.myModal {
-    margin-top: 20px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-
-}
-
-
-
-.myModalDialog {
-   
-    border-radius: 12px;
-    
-}
-
-/*--Estilos para las modales--*/
-
-.myModalContent {
-    background-image: url("/image/modalBackground.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: #35648f;
-    border-radius: 16px;
-    border: 2px solid #0d2135;
-    padding: 20px;
-}
-
-.myModalHeader {
-    border-bottom: 1px solid #444;
-    display: flex !important;
-    justify-content: center !important;
-    width: 100%;
-}
-
-   
-    .myModalHeader .modal-title {
-        margin: 0 auto;
-    }
 
 
 
 
-.myModalBody {
-    font-size: 1rem;
-    text-align: center; 
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-}
 
 
-.myModalFooter {
-    border-top: 1px solid #444;
-}
 
-.myModalBackdrop {
-    background: rgba(0, 0, 0, 0.8);
-}
+
+
+
 
 
 /*---------------------------------------------------------*/

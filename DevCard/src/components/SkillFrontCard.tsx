@@ -1,96 +1,48 @@
 import type React from 'react';
-import { Button, Modal, ModalBody, ModalHeader, ModalFooter, Badge } from 'reactstrap';
-import type { skillFront, SkillFrontProps } from '../types/types';
-import { useState } from 'react';
+import type { Skill, SkillProps } from '../types/types';
 
 
-
-
-export const SkillFrontCard: React.FC<SkillFrontProps> = ({ skillsFront}) => {
-
-    const [open, setOpen] = useState(false);
-
-    const toggle = () => setOpen(prev => !prev)
-   
-
-
-    //Creamos un switch para dar un estilo de color dependiendo del nivel
-    const levelColor = (level: skillFront["level"]) => {
-        switch (level) {
-
-            case "Basic":
-                return "secondary";
-
-            case "Advanced":
-                return "success";
-
-            case "Expert":
-                return "primary";
-
-        }
-    };
-
-
+export const SkillFrontCard: React.FC<SkillProps> = ({ skills }) => {
 
     return (
 
-        <>
+        <div className="skill-card">
 
-            <Button className="Button-Style" onClick={toggle}>
-                Frontend
-            </Button>
+            <h3>Frontend</h3>
 
-            <Modal
-                isOpen={open}
-                toggle={toggle}
-                className="myModal"
-                modalClassName="myModalDialog"
-                contentClassName="myModalContent"
-                wrapClassName="myModalBackdrop"
-            >
-
-                <ModalHeader  className="myModalHeader">Front-end Skills</ModalHeader>
-
-                <ModalBody className="myModalBody">
-
-                    <ul className="list-unstyled mb-0">
-                        {skillsFront.map((skill: skillFront) => (
-                            <li key={skill.id} className="d-flex align-items-center gap-2 mb-2">
-
-                                <img
-                                    src={`/image/${skill.image}`}
-                                    alt={`Logo de ${skill.name}`}
-                                    className="skill-icon"
-                                    width={24}
-                                    height={24}
-                                    loading="lazy"
-                                    onError={(e) => {
-                                        // Fallback si la imagen no existe
-                                        (e.currentTarget as HTMLImageElement).src = "/images/_fallback.png";
-                                    }}
-                                />
+            <ul className="list-unstyled mb-0 skill-list">
 
 
-                                <strong>{skill.name}</strong>
-                                <Badge color={levelColor(skill.level)} pill>
-                                    {skill.level}
-                                </Badge>
-                            </li>
-                        ))}
-                    </ul>
+                {skills.map((skill: Skill) => (
 
-                </ModalBody>
+                    <li
+                        key={skill.id}
+                        className="d-flex align-items-center"
+                    >
 
-                <ModalFooter className="myModalFooter">
-                    <Button color="secondary" onClick={toggle}>
-                        Close
-                    </Button>
-                </ModalFooter>
-               
-            </Modal>
-        </>
+                        <div className="skill-style">
+                            <img
+                                src={`/image/${skill.image}`}
+                                alt={`Logo de ${skill.name}`}
+                                className="skill-icon"
+                                loading="lazy"
+                                onError={(e) => {
+                                    (e.currentTarget as HTMLImageElement).src = "/images/_fallback.png";
+                                }}
+                            />
 
+                            <h5>{skill.name}</h5>
 
+                        </div>             
+
+                    </li>
+
+                ))}
+
+            </ul>
+
+        </div>
 
     );
-}
+
+};

@@ -1,5 +1,4 @@
 ﻿import { useEffect, useState } from "react";
-import { EducationCard } from "./components/EducationCard";
 import { IntroCard } from "./components/IntroCard";
 import { ProjectCard } from "./components/ProjectCard";
 import { SkillBackCard } from "./components/SkillBackCard";
@@ -7,8 +6,13 @@ import { SkillCloudCard } from "./components/SkillCloudCard";
 import { SkillFrontCard } from "./components/SkillFrontCard";
 import { SkillToolCard } from "./components/SkillToolCard";
 import { getDevCard } from "./services/devcard.service";
-import { ProjectCloud } from "./components/ProjectCloud";
-import { ProjectPrimer } from "./components/ProjectPrimer";
+import { CertificationCard } from "./components/CertificationCard";
+import { ProfessionalTrajectoryCard } from "./components/ProfessionalTrajectoryCard";
+import { FormnalEducationCard } from "./components/FormalEducationCard";
+import { AdditionalTrainingCard } from "./components/AdditionalTrainingCard";
+import { LanguageCard } from "./components/LanguageCard";
+import { NetworkCard } from "./components/NetworkCard";
+
 
 
 
@@ -42,42 +46,57 @@ export const App = () => {
             </div>
 
 
+
+            <div className="custom-card">
+                <h2>Certificates</h2>
+                <CertificationCard certifications={data.certification} />
+            </div>
+
+
             <div className="custom-card">
                 <h2>Technical Skills</h2>
-                <p>An overview of the technologies and tools I work with, organized by area and presented as skill categories.</p>
-                <SkillFrontCard skillsFront={data.skillsfront} />
-                <SkillBackCard skillsBack={data.skillsback} />
-                <SkillCloudCard skillsCloud={data.skillscloud} />
-                <SkillToolCard skillsTool={data.skillstool} />
-
+                <div className="skills-grid">
+                   
+                    <SkillFrontCard skills={data.skillsfront} />                
+                    <SkillBackCard skills={data.skillsback} />
+                    <SkillCloudCard skills={data.skillscloud} />
+                    <SkillToolCard skills={data.skillstool} />
+                </div>
             </div>
 
 
             <div className="custom-card">
-                <h2>Cloud & Backend Projects</h2>
-                <p>Cloud project deployment and solution development with Microsoft Power Platform, focused on modern application development and digital transformation within the Microsoft ecosystem.</p>
-                <ProjectCloud projectscloud={data.projectscloud} />
-            </div>
-            
-                <div className="custom-card">
-                <h2>Frontend & Backend Code Projects</h2>
-                <p>Small projects created for backend and frontend development. These projects are intended as technical practice to improve my layout design skills, programming logic, and data management.</p>
+                <h2>Projects & Learning</h2>
                 <ProjectCard projects={data.projects} />
             </div>
 
             <div className="custom-card">
-                <h2>Experimental Technology Projects</h2>
-                <p>Introductory projects and first exposure to new technologies, developed with the aim of understanding their core concepts, tools, and workflow.</p>
-                <ProjectPrimer projectsprimer={data.projectsprimer} />
+                <h2>Professional Tarjectory</h2>
+                <ProfessionalTrajectoryCard data={data.professionaltrajectory} />
+            </div>
+
+
+            <div className="custom-card">
+                <h2>Education & Formation</h2>
+                <FormnalEducationCard formaleducation={data.formaleducation} />
+
             </div>
 
             <div className="custom-card">
-                <h2>Education & Certificates</h2>
-                <p>My recent education includes official training in software development and cloud technologies, along with complementary courses to expand my technical knowledge and skills.</p>
-                <EducationCard educations={data.education} />
-                   
+                <h2>Additional Training</h2>
+                <AdditionalTrainingCard additionaltraining={data.additionaltraining} />
             </div>
-   
+
+            <div className="custom-card">
+                <h2>Languages</h2>
+                <LanguageCard languages={data.language} />
+            </div>
+
+            <div className="custom-card">
+                <h2>Networks</h2>
+                <NetworkCard networks={data.network} />
+            </div>
+
             
         </div>
 

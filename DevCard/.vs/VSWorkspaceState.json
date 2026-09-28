@@ -2,13 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\public",
+    "\\public\\image",
     "\\src",
-    "\\src\\assets",
     "\\src\\components",
-    "\\src\\components\\educations",
-    "\\src\\components\\projects",
-    "\\src\\services",
     "\\src\\types"
   ],
+  "SelectedNode": "\\public\\image\\GitHubLog.png",
   "PreviewInSolutionExplorer": false
 }
