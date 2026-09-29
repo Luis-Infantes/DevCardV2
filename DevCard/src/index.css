@@ -450,8 +450,13 @@ body {
 
     .skills-grid {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 2fr);
         gap: 20px;
+    }
+
+    .skill-icon {
+        width: 75px;
+        height: 75px;
     }
 
 
@@ -460,6 +465,7 @@ body {
 
     .projects-grid {
         grid-template-columns: repeat(1, 1fr);
+        
     }
 
 
@@ -468,16 +474,14 @@ body {
             font-size: 14px;
         }
 
+    .project-img {
 
-    .introcard-grid-redes {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 1.5rem;
-        margin-bottom: 10px;
+        width: 320px;
     }
 
-    /*----EDUCATION------*/
 
+
+    /*----EDUCATION------*/
     .card-education P {
         font-size: 14px;
     }
