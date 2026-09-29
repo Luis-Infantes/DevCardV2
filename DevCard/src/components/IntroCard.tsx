@@ -8,10 +8,10 @@ export const IntroCard: React.FC<IntroProps> = ({ data }) => {
 
     return (
 
-        <div>
+        <div className="container">
 
 
-            <div className="introcard-style">
+            <div className="intro-grid">
                 <img
                     src={`/image/${data.avatarimg}`}
                     alt={`Logo de ${data.avatarimg}`}

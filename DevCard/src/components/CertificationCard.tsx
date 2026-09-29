@@ -14,9 +14,6 @@ export const CertificationCard: React.FC<CertificationProps> = ({ certifications
     
         <div className="container">
 
-            {/*<h2>Certificates</h2>*/}
-            {/*<p>Description in process...</p>*/}
-
             <div className="certification-grid">
 
                 {certifications.map((certifications: Certification) => 

@@ -38,6 +38,12 @@ body {
     font-weight:bold;
 }
 
+.card-project {
+    padding: 15px;
+    text-align: center;
+    border-radius: 6px;
+}
+
 
 /*--------TITLE-STYLES--------*/
 
@@ -60,12 +66,15 @@ body {
 
 /*--------INTRO-STYLES--------*/
 
+
+
+
 .avatar-icon {
     width: 180px;
     height: 180px;
 }
 
-.introcard-style h5 {
+.intro-grid h5 {
     font-weight:bold;
 }
 
@@ -379,6 +388,7 @@ body {
 
 
 @media (max-width: 1000px) {
+
     .projects-grid {
         grid-template-columns: repeat(1, 1fr);
         
@@ -412,17 +422,54 @@ body {
 }
 
 @media (max-width: 600px) {
+
+    /*----INTRO STYLES----*/
+
+    .avatar-icon {
+        width: 130px;
+        height: 130px;
+    }
+
+    .intro-grid h5 {
+        font-weight: bold;
+        font-size:medium;
+    }
+
+
+    .intro-grid P {
+        font-size: 14px;
+    }
+
+    /*------CERTIFICATES------*/
+
+
+    .certification-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    /*-------SKILLS-------*/
+
+    .skills-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+
+    /*----PROJECTS-------*/
+
+
     .projects-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(1, 1fr);
     }
 
-    .Project-Style h4 {
-        font-size: 18px;
-    }
 
-    .Project-Style p {
-        font-size: 12px;
-    }
+
+        .projects-grid p {
+            font-size: 14px;
+        }
 
 
     .introcard-grid-redes {
@@ -432,138 +479,28 @@ body {
         margin-bottom: 10px;
     }
 
+    /*----EDUCATION------*/
 
-
-
-
-}
-
-
-.card-project {
-
-
-    padding: 15px;
-    text-align: center;
-    border-radius: 6px;
-}
-
-
-/*------skills--------*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.Intro-Style img:hover {
-    filter: drop-shadow(0 0 2px #cedcf5) drop-shadow(0 0 2px #05defc);
-}
-
-.Intro-Style a {
-    text-decoration:none;
-    color:#7a7c7d;
-}
-
-    .Intro-Style a:hover {
-        filter: drop-shadow(0 0 2px #cedcf5) drop-shadow(0 0 2px #05defc);
-        
+    .card-education P {
+        font-size: 14px;
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*---------------------------------------------------------*/
-
-
-
-
-
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-    font-weight: 500;
-    color: #35648f;
-    text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-    :root {
-        color: #35648f;
-        background-color: #ffffff;
+    .card-training p {
+        font-size: 14px;
     }
-    a:hover {
-        color: #35648f;
-    }
-  button {
-    background-color: #f9f9f9;
-  }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

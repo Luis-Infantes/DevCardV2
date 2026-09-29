@@ -10,7 +10,7 @@ export const ProjectCard: React.FC<ProjectProps> = ({ projects }) => {
 
     return (
 
-       /* <div className="container">*/
+        <div className="container">
 
             <div className="projects-grid">
 
@@ -81,7 +81,7 @@ export const ProjectCard: React.FC<ProjectProps> = ({ projects }) => {
             </div>
 
 
-       /* </div>*/
+        </div>
     
     )
 }
