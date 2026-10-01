@@ -12,6 +12,8 @@ import { FormnalEducationCard } from "./components/FormalEducationCard";
 import { AdditionalTrainingCard } from "./components/AdditionalTrainingCard";
 import { LanguageCard } from "./components/LanguageCard";
 import { NetworkCard } from "./components/NetworkCard";
+import { Footer } from "./components/Footer";
+
 
 
 
@@ -95,6 +97,10 @@ export const App = () => {
             <div className="custom-card">
                 <h2>Networks</h2>
                 <NetworkCard networks={data.network} />
+            </div>
+
+            <div className="custom-card">
+                <Footer />
             </div>
 
             

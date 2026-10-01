@@ -31,8 +31,8 @@ async function seed() {
                 fullname: "Luis Infantes Lacal",
                 title: "Hybrid Software Developer | Azure | AWS | Power Platform | React | Angular | C# | .NET Core | Node",
                 description:
-                    "Welcome to DevCard. This is my interactive CV, where I present my projects and my knowledge of cloud technologies and web development.",
-                avatarimg: "avatar.png",
+                    "Welcome to DevCardStudio. This is my interactive CV, where I present my projects and my knowledge of cloud technologies and web development.",
+                avatarimg: "LogoDevCardStudio.png",
                 link:"/image/Luis-Infantes-CV-DevCard.pdf",
             },
 
@@ -40,19 +40,11 @@ async function seed() {
 
             certification: [
 
+
+
                 {
 
                     id: "#1",
-                    title: "Power Platform Fundamentals",
-                    image: "PL-900.png",
-                    date: "2025",
-                    link: "https://learn.microsoft.com/es-es/users/luisinfanteslacal-7036/credentials/e182d2f15d51e9ff?ref=https%3A%2F%2Fwww.linkedin.com%2F"
-
-                },
-
-                {
-
-                    id: "#2",
                     title: "Power Platform Developer",
                     image: "PL-400.png",
                     date: "2026",
@@ -60,6 +52,15 @@ async function seed() {
 
                 },
 
+
+                {
+                    id: "#2",
+                    title: "AWS Developer",
+                    image: "DVA-C02.png",
+                    date: "2026",
+                    link: "https://www.credly.com/badges/6172789c-d8ea-4e13-b1b3-ae63a87b19bf/public_url"
+
+                },
 
                 {
 
@@ -72,13 +73,14 @@ async function seed() {
                 },
 
                 {
-                    id: "#4",
-                    title: "AWS Developer",
-                    image: "DVA-C02.png",
-                    date: "2026",
-                    link: "https://www.credly.com/badges/6172789c-d8ea-4e13-b1b3-ae63a87b19bf/public_url"
 
-                }
+                    id: "#4",
+                    title: "Power Platform Fundamentals",
+                    image: "PL-900.png",
+                    date: "2025",
+                    link: "https://learn.microsoft.com/es-es/users/luisinfanteslacal-7036/credentials/e182d2f15d51e9ff?ref=https%3A%2F%2Fwww.linkedin.com%2F"
+
+                },
 
             ],
 

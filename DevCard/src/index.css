@@ -423,8 +423,8 @@ body {
     /*----INTRO STYLES----*/
 
     .avatar-icon {
-        width: 130px;
-        height: 130px;
+        width: 150px;
+        height: 150px;
     }
 
     .intro-grid h5 {
@@ -444,6 +444,9 @@ body {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+
+
+
 
 
     /*-------SKILLS-------*/
