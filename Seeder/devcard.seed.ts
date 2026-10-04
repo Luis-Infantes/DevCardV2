@@ -234,6 +234,7 @@ async function seed() {
 
             professionaltrajectory: [
 
+                { id: "13", img: "Diploma.png", date: "Oct - 2026", description: "Course - A2 English (Busuu)" },
                 { id: "12", img: "Diploma.png",date: "Aug - 2026", description: "Course - A1 English (Busuu)" },
                 { id: "11", img:"MasterTitle.png", date: "Jul - 2026", description:"Master - Full-Stack Development & Cloud Architectures (Tajamar)" },
                 { id: "10", img: "Certificate.png", date: "Jun - 2026", description:"Certification - Power Platform Associate (Microsoft)" },
@@ -324,8 +325,8 @@ async function seed() {
                     id: "#1",
                     image: "language.png",
                     title: "English",
-                    level: "A1",
-                    link: "/image/A1.pdf",
+                    level: "A2",
+                    link: "/image/A2.pdf",
                    
 
                 },
