@@ -1,60 +1,81 @@
-## DESPLIEGUE DE AZURE FUNCTION EN AZURE
+# DESPLIEGUE DE AZURE FUNCTION EN AZURE
 
-# CREACION DE AZURE FUNCTION EN AZURE
+## CREACIÓN DE AZURE FUNCTION EN AZURE
 
-1) Entramos en nuestra cuenta de Azure para crear una Azure Function junto con un grupo de recursos para el proyecto
+1) Entramos en nuestra cuenta de Azure para crear una Azure Function junto con un Grupo de Recursos para el proyecto.
 
-2) Nombre de la aplicacion / Regi�n (Sweden central, casi nunca falla)
+2) Indicamos el nombre de la aplicación y la región. Como recomendación, **Sweden Central** suele funcionar correctamente.
 
-3) Del tipo .NET
+3) Seleccionamos el tipo **.NET**.
 
-4) Versi�n 8 si el proyecto lo hiciste en 8. Si sale como obsoleta tendr�s que elegir otra superior actualizar el proyecto
+4) Elegimos la versión 8 si el proyecto ha sido desarrollado en .NET 8. Si aparece como obsoleta, tendremos que seleccionar una versión superior y actualizar el proyecto.
 
-5) Como recomendaci�n para evitar este problema se podr�a verificar que versiones hay disponibles en Azure para crear el proyecto directamnente con la versi�n de Azure que luego usaremos y as� evitar problemas de versiones
+5) Como recomendación para evitar este problema, podemos verificar previamente qué versiones están disponibles en Azure y crear directamente el proyecto en una versión compatible con la que utilizaremos posteriormente en la nube.
 
-6) En implementaci�n muy importante habilitar GitHub para poder actualizar el repositorio
+6) En la sección de implementación es muy importante habilitar **GitHub** para poder actualizar el proyecto desde el repositorio.
 
-7) Tendremos que autorizar desde Github, seleccionamos organizacion, repositorio y la rama donde colgaremos el proyecto
+7) Tendremos que autorizar GitHub, seleccionando organización, repositorio y rama donde publicaremos el proyecto.
 
-8) Creado el grupo de recursos pasamos a gestionar las variables de entorno
+8) Una vez creado el Grupo de Recursos, pasamos a configurar las variables de entorno.
 
+---
 
 # VARIABLES DE ENTORNO
 
-1) Configurar => Variables de entorno => Agregar
+1) Accedemos a:
 
-2) Creamos las cinco variables que tenemos en el archivo local.settings.json de nuestro proyecto
+```
+Configurar → Variables de entorno → Agregar
+```
 
-3) Mismo nombre y se recomienda copiar y pegar para evitar errores
+2) Creamos las cinco variables que tenemos en el archivo `local.settings.json` del proyecto.
 
-4) Aplicamos y guardamos
+3) Utilizamos exactamente los mismos nombres. Se recomienda copiar y pegar para evitar errores.
+
+4) Aplicamos los cambios y guardamos.
+
+---
 
 # DESPLIEGUE
 
-1) Nos vamos a nuestro proyecto creado con nuestro editor que en este caso es Visual Studio
+1) Abrimos el proyecto desde nuestro editor de código, en este caso Visual Studio.
 
-2) Tras abrirlo en la parte de la izquierda lo seleccionamos con el bot�n derecho y publicamos
+2) Sobre el proyecto, hacemos clic derecho y seleccionamos **Publicar**.
 
-3) Destino Azure
+3) Seleccionamos como destino **Azure**.
 
-4) Destino especifico aplicacion de funciones
+4) Elegimos **Aplicación de Funciones** como destino específico.
 
-5) Seleccionamos la funci�n creada y le damos a finalizar
+5) Seleccionamos la Azure Function creada anteriormente y pulsamos **Finalizar**.
 
-6) Una vez desplegado sin fallo la aplicaci�n, nos vamos a Azure para buscarla en nuestra Azure Function
+6) Una vez desplegada correctamente la aplicación, volvemos a Azure para localizar la Function.
 
-7) Debemos de obtener la direcci�n de URL para verificar que se ve bien la base de datos
+7) Debemos obtener la dirección URL para verificar que se visualiza correctamente la información de la base de datos.
 
-8) Veremos tres. Usamos la Default
+8) Veremos varias URLs. Utilizaremos la que aparece como **Default**.
 
-9) Esta misma URL ser� la que usemos en el Front y cambiemos por la local en el archivo
-
-```
-	devcard.service.ts
+9) Esta misma URL será la que utilizaremos posteriormente en el Front, sustituyendo la URL local dentro del archivo:
 
 ```
+devcard.service.ts
+```
 
-10) Antes de ejecutar para ver si funciona, debemos ir a Azure a nuestro grupo de recursos para localizar CORS y a�adir la url "http://localhost:5173", esto permite dar acceso a esta url.
+10) Antes de ejecutar el proyecto, debemos acceder a Azure y localizar la configuración **CORS** dentro de nuestra Azure Function. Allí añadiremos:
 
+```
+http://localhost:5173
+```
 
-11) Guardamos y ejecutamos el proyecto para ver si hay fallos. Puede tardar unos minutos
+Esto permitirá que las peticiones realizadas desde esta dirección sean aceptadas por la Azure Function.
+
+11) Guardamos la configuración y ejecutamos el proyecto para verificar que no existen errores. La actualización de la configuración puede tardar varios minutos en aplicarse.
+
+---
+
+# NOTAS
+
+1) Si el Front se despliega posteriormente en otra plataforma como Vercel o mediante un dominio personalizado, será necesario añadir también dichas URLs en la configuración de CORS.
+
+2) Es recomendable comprobar directamente la URL de la Azure Function desde el navegador antes de realizar pruebas desde React, para verificar que la API devuelve correctamente el contenido JSON esperado.
+
+3) Si se produce un error de tipo **CORS**, normalmente significa que la URL desde la que se está realizando la petición no ha sido añadida todavía a la lista de orígenes permitidos dentro de Azure.
