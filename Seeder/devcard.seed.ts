@@ -161,7 +161,7 @@ async function seed() {
                     title: "A la Carte",
                     description: "This Power Platform solution automates restaurant orders from the table to the service, manages recipe inventory, and provides statistical reports using apps and workflows.",
                     tech: ["PowerPlat.png", "PowerApps.png", "PowerAuto.png", "PowerBi.png"],
-                    link: "",
+                    link: "https://github.com/Luis-Infantes/a-la-carta",
                     linkvideo: "https://www.linkedin.com/posts/luis-infantes-artdesign_powerplatform-powerapps-powerautomate-ugcPost-7475166021025202176-TlbJ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABIU7MkBwS6rReTXpX251bZXD676xSBMVlg",
                     image: "ALaCarte.jpg",
                   
