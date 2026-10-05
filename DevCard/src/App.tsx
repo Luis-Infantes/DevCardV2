@@ -34,7 +34,7 @@ export const App = () => {
         getDevCard().then(setData).catch(console.error)
     }, []);
 
-    if (!data) return <p>Cargando...</p>
+    if (!data) return 
 
 
     return (
