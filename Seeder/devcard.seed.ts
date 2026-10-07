@@ -138,7 +138,7 @@ async function seed() {
 
                     tech: ["React.png", "Azure.png","PowerPlat.png", "Node.png", "css.png","Bootstrap.png", "HTML.png"],
                     link: "https://github.com/Luis-Infantes/DevCardV2",
-                    linkvideo: "#",
+                    linkvideo: "https://lnkd.in/p/dKuS7gTa",
                     image: "DevCardV2Project.jpg",
                  
                 },
