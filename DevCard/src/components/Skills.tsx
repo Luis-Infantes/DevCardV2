@@ -7,7 +7,7 @@ export const Skills: React.FC<SkillProps> = ({ skills }) => {
     const frontSkills = skills.filter(s => s.category.toLowerCase() === "front-end");
     const backSkills = skills.filter(s => s.category.toLowerCase() === "back-end");
     const cloudSkills = skills.filter(s => s.category.toLowerCase() === "cloud");
-    const toolSkills = skills.filter(s => s.category.toLowerCase() === "tools");
+    const toolSkills = skills.filter(s => s.category.toLowerCase() === "tool");
 
     return (
         <div >
@@ -17,7 +17,7 @@ export const Skills: React.FC<SkillProps> = ({ skills }) => {
                 <SkillCard title="Frontend" skills={frontSkills} />
                 <SkillCard title="Backend" skills={backSkills} />
                 <SkillCard title="Cloud" skills={cloudSkills} />
-                <SkillCard title="Tools" skills={toolSkills} />
+                <SkillCard title="Tool" skills={toolSkills} />
             </div>
         </div>
     );

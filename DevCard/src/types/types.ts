@@ -107,7 +107,7 @@ export type ProjectProps = {
 export type ProfessionalTrayectory = {
 
     order: number;
-    img: string;
+    image: string;
     date: string;
     description: string;
 }
