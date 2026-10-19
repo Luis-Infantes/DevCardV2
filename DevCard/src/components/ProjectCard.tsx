@@ -17,7 +17,7 @@ export const ProjectCard: React.FC<ProjectProps> = ({ projects }) => {
                 {projects.map((project: Project) =>
 
 
-                    <div key={project.id} className="project-card">
+                    <div key={project.order} className="project-card">
 
                         <h5>
                             {project.title}

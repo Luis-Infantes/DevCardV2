@@ -20,7 +20,7 @@ export type Intro = {
     fullname: string;
     title: string;
     description: string;
-    avatarimg: string; 
+    image: string; 
     link: string;
 
 }
@@ -41,7 +41,7 @@ export type IntroProps = {
 export type Certification = {
 
 
-    id: string;
+    order: number;
     title: string;
     image: string;
     date: string;
@@ -62,7 +62,8 @@ export type CertificationProps = {
 //----------SKILLS-------------------------------------------
 
 export type Skill = {
-    id: string;
+
+    order: number;
     name: string;
     category: string;
     image: string;
@@ -82,7 +83,7 @@ export type SkillProps = {
 
 export type Project = {
 
-    id: string;
+    order: number;
     title: string;
     description: string;
     tech: string[];
@@ -105,7 +106,7 @@ export type ProjectProps = {
 
 export type ProfessionalTrayectory = {
 
-    id: string;
+    order: number;
     img: string;
     date: string;
     description: string;
@@ -124,7 +125,7 @@ export type ProfessionalTrajectoryProps = {
 
 export type FormalEducation = {
 
-    id: string;
+    order: number;
     title: string;
     description: string;
     date: string;
@@ -144,7 +145,7 @@ export type FormalEducationProps = {
 
 export type AdditionalTraining = {
 
-    id: string;
+    order: number;
     title: string;
     description: string;
     date: string;
@@ -166,7 +167,8 @@ export type AdditionalTrainingProps = {
 
 
 export type Language = {
-    id: string;
+
+    order: number;
     title: string;
     level: string;
     image: string;
@@ -182,7 +184,7 @@ export type LanguageProps = {
 
 export type Network = {
 
-    id: string;
+    order: number;
     title: string;
     image: string;
     link: string;

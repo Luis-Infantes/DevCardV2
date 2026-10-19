@@ -6,7 +6,7 @@ import type { ProfessionalTrayectory, ProfessionalTrajectoryProps } from "../typ
 
 export const ProfessionalTrajectoryCard: React.FC<ProfessionalTrajectoryProps> = ({ data }) => {
 
-    const sortedData = [...data].sort((a, b) => Number(b.id) - Number(a.id));
+    const sortedData = [...data].sort((a, b) => Number(b.order) - Number(a.order));
 
     return (
 
@@ -18,7 +18,7 @@ export const ProfessionalTrajectoryCard: React.FC<ProfessionalTrajectoryProps> =
                 {sortedData.map((trayectory: ProfessionalTrayectory) =>
 
 
-                    <div key={trayectory.id} className="card-certification">
+                    <div key={trayectory.order} className="card-certification">
 
                       
 

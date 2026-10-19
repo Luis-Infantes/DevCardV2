@@ -19,7 +19,7 @@ export const CertificationCard: React.FC<CertificationProps> = ({ certifications
                 {certifications.map((certifications: Certification) => 
 
 
-                    <div key={certifications.id} className="card-certification">
+                    <div key={certifications.order} className="card-certification">
 
 
                         

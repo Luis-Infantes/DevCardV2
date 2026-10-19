@@ -17,7 +17,7 @@ export const AdditionalTrainingCard: React.FC<AdditionalTrainingProps> = ({ addi
                 {additionaltraining.map((addtional: AdditionalTraining) =>
 
 
-                    <div key={addtional.id} className="card-training">
+                    <div key={addtional.order} className="card-training">
 
                         <img
                             src={`/image/${addtional.image}`}

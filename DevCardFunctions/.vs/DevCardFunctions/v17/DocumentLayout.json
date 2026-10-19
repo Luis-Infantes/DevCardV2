@@ -7,16 +7,64 @@
       "RelativeMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|solutionrelative:devcardfunctions\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|c:\\tajamar\\devcard02\\devcardfunctions\\devcardfunctions\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|solutionrelative:devcardfunctions\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|c:\\tajamar\\devcard02\\devcardfunctions\\devcardfunctions\\models\\certification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|solutionrelative:devcardfunctions\\models\\certification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|c:\\tajamar\\devcard02\\devcardfunctions\\devcardfunctions\\models\\intro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|solutionrelative:devcardfunctions\\models\\intro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|c:\\tajamar\\devcard02\\devcardfunctions\\devcardfunctions\\services\\graphservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|solutionrelative:devcardfunctions\\services\\graphservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|c:\\tajamar\\devcard02\\devcardfunctions\\devcardfunctions\\models\\devcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|solutionrelative:devcardfunctions\\models\\devcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|c:\\tajamar\\devcard02\\devcardfunctions\\devcardfunctions\\function1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|solutionrelative:devcardfunctions\\function1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|c:\\tajamar\\devcard02\\devcardfunctions\\devcardfunctions\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|solutionrelative:devcardfunctions\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|c:\\tajamar\\devcard02\\devcardfunctions\\devcardfunctions\\models\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|solutionrelative:devcardfunctions\\models\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|c:\\tajamar\\devcard02\\devcardfunctions\\devcardfunctions\\models\\projectskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|solutionrelative:devcardfunctions\\models\\projectskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|c:\\tajamar\\devcard02\\devcardfunctions\\devcardfunctions\\models\\network.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|solutionrelative:devcardfunctions\\models\\network.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|c:\\tajamar\\devcard02\\devcardfunctions\\devcardfunctions\\models\\language.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|solutionrelative:devcardfunctions\\models\\language.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|c:\\tajamar\\devcard02\\devcardfunctions\\devcardfunctions\\models\\additionaltraining.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|solutionrelative:devcardfunctions\\models\\additionaltraining.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|c:\\tajamar\\devcard02\\devcardfunctions\\devcardfunctions\\models\\formaleducation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|solutionrelative:devcardfunctions\\models\\formaleducation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|c:\\tajamar\\devcard02\\devcardfunctions\\devcardfunctions\\models\\profesionaltrajectory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|solutionrelative:devcardfunctions\\models\\profesionaltrajectory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|c:\\tajamar\\devcard02\\devcardfunctions\\devcardfunctions\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|solutionrelative:devcardfunctions\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|c:\\tajamar\\devcard02\\devcardfunctions\\devcardfunctions\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|solutionrelative:devcardfunctions\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|c:\\tajamar\\devcard02\\devcardfunctions\\devcardfunctions\\host.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -25,10 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|c:\\tajamar\\devcard02\\devcardfunctions\\devcardfunctions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|solutionrelative:devcardfunctions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|c:\\tajamar\\devcard02\\devcardfunctions\\devcardfunctions\\function1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|solutionrelative:devcardfunctions\\function1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{70A5F9B6-E30D-4783-ACCB-B5A49E3D342E}|DevCardFunctions\\DevCardFunctions.csproj|c:\\tajamar\\devcard02\\devcardfunctions\\devcardfunctions\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -42,46 +86,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 20,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\.gitignore",
-              "RelativeDocumentMoniker": "DevCardFunctions\\.gitignore",
-              "ToolTip": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\.gitignore",
-              "RelativeToolTip": "DevCardFunctions\\.gitignore",
-              "ViewState": "AgIAAOoAAAAAAAAAAAAAAAsBAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-09-17T15:59:42.628Z",
+              "DocumentIndex": 6,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\Models\\Project.cs",
+              "RelativeDocumentMoniker": "DevCardFunctions\\Models\\Project.cs",
+              "ToolTip": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\Models\\Project.cs",
+              "RelativeToolTip": "DevCardFunctions\\Models\\Project.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T08:16:50.823Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "local.settings.json",
-              "DocumentMoniker": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\local.settings.json",
-              "RelativeDocumentMoniker": "DevCardFunctions\\local.settings.json",
-              "ToolTip": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\local.settings.json",
-              "RelativeToolTip": "DevCardFunctions\\local.settings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-09-10T11:50:50.582Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "DocumentIndex": 8,
+              "Title": "ProjectSkill.cs",
+              "DocumentMoniker": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\Models\\ProjectSkill.cs",
+              "RelativeDocumentMoniker": "DevCardFunctions\\Models\\ProjectSkill.cs",
+              "ToolTip": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\Models\\ProjectSkill.cs",
+              "RelativeToolTip": "DevCardFunctions\\Models\\ProjectSkill.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T08:34:17.822Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
+              "Title": "Skill.cs",
+              "DocumentMoniker": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\Models\\Skill.cs",
+              "RelativeDocumentMoniker": "DevCardFunctions\\Models\\Skill.cs",
+              "ToolTip": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\Models\\Skill.cs",
+              "RelativeToolTip": "DevCardFunctions\\Models\\Skill.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T08:14:42.144Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "GraphService.cs",
               "DocumentMoniker": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\Services\\GraphService.cs",
               "RelativeDocumentMoniker": "DevCardFunctions\\Services\\GraphService.cs",
               "ToolTip": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\Services\\GraphService.cs",
               "RelativeToolTip": "DevCardFunctions\\Services\\GraphService.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAgwDkAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAALIAAAAAAAAAAAAiwAkCAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-11T16:21:28.003Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Function1.cs",
+              "DocumentMoniker": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\Function1.cs",
+              "RelativeDocumentMoniker": "DevCardFunctions\\Function1.cs",
+              "ToolTip": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\Function1.cs",
+              "RelativeToolTip": "DevCardFunctions\\Function1.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAwwFMAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T11:05:36.834Z",
               "IsPinned": true
             },
             {
@@ -142,7 +211,128 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Language.cs",
+              "DocumentMoniker": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\Models\\Language.cs",
+              "RelativeDocumentMoniker": "DevCardFunctions\\Models\\Language.cs",
+              "ToolTip": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\Models\\Language.cs",
+              "RelativeToolTip": "DevCardFunctions\\Models\\Language.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T08:25:08.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "local.settings.json",
+              "DocumentMoniker": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\local.settings.json",
+              "RelativeDocumentMoniker": "DevCardFunctions\\local.settings.json",
+              "ToolTip": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\local.settings.json",
+              "RelativeToolTip": "DevCardFunctions\\local.settings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-10T11:50:50.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DevCard.cs",
+              "DocumentMoniker": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\Models\\DevCard.cs",
+              "RelativeDocumentMoniker": "DevCardFunctions\\Models\\DevCard.cs",
+              "ToolTip": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\Models\\DevCard.cs",
+              "RelativeToolTip": "DevCardFunctions\\Models\\DevCard.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T08:19:53.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AdditionalTraining.cs",
+              "DocumentMoniker": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\Models\\AdditionalTraining.cs",
+              "RelativeDocumentMoniker": "DevCardFunctions\\Models\\AdditionalTraining.cs",
+              "ToolTip": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\Models\\AdditionalTraining.cs",
+              "RelativeToolTip": "DevCardFunctions\\Models\\AdditionalTraining.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T08:23:43.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FormalEducation.cs",
+              "DocumentMoniker": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\Models\\FormalEducation.cs",
+              "RelativeDocumentMoniker": "DevCardFunctions\\Models\\FormalEducation.cs",
+              "ToolTip": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\Models\\FormalEducation.cs",
+              "RelativeToolTip": "DevCardFunctions\\Models\\FormalEducation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T08:22:43.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\.gitignore",
+              "RelativeDocumentMoniker": "DevCardFunctions\\.gitignore",
+              "ToolTip": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\.gitignore",
+              "RelativeToolTip": "DevCardFunctions\\.gitignore",
+              "ViewState": "AgIAAOoAAAAAAAAAAAAAAAsBAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-09-17T15:59:42.628Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Certification.cs",
+              "DocumentMoniker": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\Models\\Certification.cs",
+              "RelativeDocumentMoniker": "DevCardFunctions\\Models\\Certification.cs",
+              "ToolTip": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\Models\\Certification.cs",
+              "RelativeToolTip": "DevCardFunctions\\Models\\Certification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T07:25:51.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Network.cs",
+              "DocumentMoniker": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\Models\\Network.cs",
+              "RelativeDocumentMoniker": "DevCardFunctions\\Models\\Network.cs",
+              "ToolTip": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\Models\\Network.cs",
+              "RelativeToolTip": "DevCardFunctions\\Models\\Network.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T08:27:13.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProfesionalTrajectory.cs",
+              "DocumentMoniker": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\Models\\ProfesionalTrajectory.cs",
+              "RelativeDocumentMoniker": "DevCardFunctions\\Models\\ProfesionalTrajectory.cs",
+              "ToolTip": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\Models\\ProfesionalTrajectory.cs",
+              "RelativeToolTip": "DevCardFunctions\\Models\\ProfesionalTrajectory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T08:21:05.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Intro.cs",
+              "DocumentMoniker": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\Models\\Intro.cs",
+              "RelativeDocumentMoniker": "DevCardFunctions\\Models\\Intro.cs",
+              "ToolTip": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\Models\\Intro.cs",
+              "RelativeToolTip": "DevCardFunctions\\Models\\Intro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T16:10:03.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "README.txt",
               "DocumentMoniker": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\README.txt",
               "RelativeDocumentMoniker": "DevCardFunctions\\README.txt",
@@ -154,7 +344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 16,
               "Title": "host.json",
               "DocumentMoniker": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\host.json",
               "RelativeDocumentMoniker": "DevCardFunctions\\host.json",
@@ -166,7 +356,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 17,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\Program.cs",
               "RelativeDocumentMoniker": "DevCardFunctions\\Program.cs",
@@ -178,7 +368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 18,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "DevCardFunctions\\Properties\\launchSettings.json",
@@ -187,18 +377,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-09-10T11:51:18.182Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Function1.cs",
-              "DocumentMoniker": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\Function1.cs",
-              "RelativeDocumentMoniker": "DevCardFunctions\\Function1.cs",
-              "ToolTip": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\Function1.cs",
-              "RelativeToolTip": "DevCardFunctions\\Function1.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAgwCgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-10T11:05:36.834Z"
             }
           ]
         }

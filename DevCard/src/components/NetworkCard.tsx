@@ -12,7 +12,7 @@ export const NetworkCard: React.FC<NetworkProps> = ({ networks }) => {
 
                 {networks.map((network: Network) =>
 
-                    <div key={network.id} className="card-network">
+                    <div key={network.order} className="card-network">
 
                        
 

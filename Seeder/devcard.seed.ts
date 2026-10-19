@@ -32,7 +32,7 @@ async function seed() {
                 title: "Hybrid Software Developer | Azure | AWS | Power Platform | React | Angular | C# | .NET Core | Node",
                 description:
                     "Welcome to DevCardStudio. This is my interactive CV, where I present my projects and my knowledge of cloud technologies and web development.",
-                avatarimg: "LogoDevCardStudio.png",
+                image: "LogoDevCardStudio.png",
                 link:"/image/Luis-Infantes-CV-DevCard.pdf",
             },
 
@@ -44,7 +44,7 @@ async function seed() {
 
                 {
 
-                    id: "#1",
+                    order: "1",
                     title: "Power Platform Developer",
                     image: "PL-400.png",
                     date: "2026",
@@ -54,7 +54,7 @@ async function seed() {
 
 
                 {
-                    id: "#2",
+                    order: "2",
                     title: "AWS Developer",
                     image: "DVA-C02.png",
                     date: "2026",
@@ -64,7 +64,7 @@ async function seed() {
 
                 {
 
-                    id: "#3",
+                    order: "3",
                     title: "Azure Developer",
                     image: "az-204.png",
                     date: "2026",
@@ -74,7 +74,7 @@ async function seed() {
 
                 {
 
-                    id: "#4",
+                    order: "4",
                     title: "Power Platform Fundamentals",
                     image: "PL-900.png",
                     date: "2025",
@@ -89,50 +89,43 @@ async function seed() {
 
 
 
-            skillsfront: [
-                { id: "#1", name: "HTML", category: "Front-end", image: "HTML.png" },
-                { id: "#2", name: "CSS", category: "Front-end", image: "css.png" },
-                { id: "#3", name: "Bootstrap", category: "Front-end", image: "Bootstrap.png" },
-                { id: "#4", name: "JavaScript", category: "Front-end", image: "JS.png" },
-                { id: "#5", name: "TypeScript", category: "Front-end", image: "TS.png" },
-                { id: "#6", name: "React", category: "Front-end", image: "React.png" },
-                { id: "#7", name: "Angular", category: "Front-end", image: "Angular.png" }
+            skills: [
+                { order: 1, name: "HTML", category: "Front-end", image: "HTML.png" },
+                { order: 2, name: "CSS", category: "Front-end", image: "css.png" },
+                { order: 3, name: "Bootstrap", category: "Front-end", image: "Bootstrap.png" },
+                { order: 4, name: "JavaScript", category: "Front-end", image: "JS.png" },
+                { order: 5, name: "TypeScript", category: "Front-end", image: "TS.png" },
+                { order: 6, name: "React", category: "Front-end", image: "React.png" },
+                { order: 7, name: "Angular", category: "Front-end", image: "Angular.png" },
+                { order: 8, name: "C#", category: "Back-end", image: "CSharp.png" },
+                { order: 9, name: "Node.js", category: "Back-end", image: "Node.png" },
+                { order: 10, name: "ASP.NET", category: "Back-end", image: "AspNet.png" },
+                { order: 11, name: ".NET", category: "Back-end", image: "Net.png" },
+                { order: 12, name: ".NET Core", category: "Back-end", image: "NetCore.png" },
+                { order: 13, name: "Entity Framework", category: "Back-end", image: "NetFramework.png" },
+                { order: 14, name: "Power Platform", category: "cloud", image: "PowerPlat.png" },
+                { order: 15, name: "Azure", category: "cloud", image: "Azure.png" },
+                { order: 16, name: "AWS", category: "cloud", image: "aws.png" },
+                { order: 17, name: "Power Apps", category: "cloud", image: "PowerApps.png" },
+                { order: 18, name: "Power Automate", category: "cloud", image: "PowerAuto.png" },
+                { order: 19, name: "Power BI", category: "cloud", image: "PowerBi.png" },
+                { order: 20, name: "Docker", category: "tools", image: "Docker.png" },
+                { order: 21, name: "Insomnia", category: "tools", image: "Insomnia.png" },
+                { order: 22, name: "Git", category: "tools", image: "GitBash.png" },
+                { order: 23, name: "GitHub", category: "tools", image: "GitHubLog.png" },
+                { order: 24, name: "MySQL", category: "tools", image: "SQL.png" },
+                { order: 25, name: "MongoDB", category: "tools", image: "MongoDB.png" },
+                { order: 26, name: "Visual Studio", category: "tools", image: "VisualStudio.png" },
+                { order: 27, name: "VS Code", category: "tools", image: "VisualSCode.png" },
             ],
-            skillsback: [
-                { id: "#1", name: "C#", category: "Back-end", image: "CSharp.png" },
-                { id: "#2", name: "Node.js", category: "Back-end", image: "Node.png" },
-                { id: "#3", name: "ASP.NET", category: "Back-end", image: "AspNet.png" },
-                { id: "#4", name: ".NET", category: "Back-end", image: "Net.png" },
-                { id: "#5", name: ".NET Core", category: "Back-end", image: "NetCore.png" },
-                { id: "#6", name: "Entity Framework", category: "Back-end", image: "NetFramework.png" },
-                
-            ],
-            skillscloud: [
-
-                { id: "#1", name: "Power Platform",  category: "cloud", image: "PowerPlat.png" },
-                { id: "#2", name: "Azure",  category: "cloud", image: "Azure.png" },
-                { id: "#3", name: "AWS", category: "cloud", image: "aws.png" },
-                { id: "#4", name: "Power Apps", category: "cloud", image: "PowerApps.png" },
-                { id: "#5", name: "Power Automate", category: "cloud", image: "PowerAuto.png" },
-                { id: "#6", name: "Power BI", category: "cloud", image: "PowerBi.png" },
-            ],
-            skillstool: [
-                { id: "#1", name: "Docker",  category: "tools", image: "Docker.png" },
-                { id: "#2", name: "Insomnia",  category: "tools", image: "Insomnia.png" },
-                { id: "#3", name: "Git",  category: "tools", image: "GitBash.png" },
-                { id: "#4", name: "GitHub",  category: "tools", image: "GitHubLog.png" },
-                { id: "#5", name: "MySQL", category: "tools", image: "SQL.png" },
-                { id: "#6", name: "MongoDB", category: "tools", image: "MongoDB.png" },
-                { id: "#7", name: "Visual Studio", category: "tools", image: "VisualStudio.png" },
-                { id: "#8", name: "VS Code", category: "tools", image: "VisualSCode.png" },
-            ],
+      
 
 
 
             projects: [
 
                 {
-                    id: "#1",
+                    order: "1",
                     title: "Dev Card V2",
                     description: "Interactive portfolio showcasing projects, certifications, and technical skills through a cloud-based architecture powered by React, Azure Functions, Microsoft Graph, and SharePoint.",
 
@@ -145,7 +138,7 @@ async function seed() {
 
 
                 {
-                    id: "#2",
+                    order: "2",
                     title: "Blue Pay",
                     description: "Basic banking transaction management project, developed using the MVC pattern and deployed on Azure, leveraging Azure SQL, App Service, Service Bus, and Logic Apps for resource and process management.",
                     tech: ["NetCore.png", "Azure.png", "css.png", "Bootstrap.png", "HTML.png"],
@@ -157,7 +150,7 @@ async function seed() {
 
 
                 {
-                    id: "#3",
+                    order: "3",
                     title: "A la Carte",
                     description: "This Power Platform solution automates restaurant orders from the table to the service, manages recipe inventory, and provides statistical reports using apps and workflows.",
                     tech: ["PowerPlat.png", "PowerApps.png", "PowerAuto.png", "PowerBi.png"],
@@ -169,7 +162,7 @@ async function seed() {
 
 
                 {
-                    id: "#4",
+                    order: "4",
                     title: "Turbo Point",
                     description: "Angular-based application focused on dynamic tables, filtering, and automated price calculations. Built using TypeScript, Bootstrap, HTML, and CSS to gain hands-on experience with Angular development.",
                     tech: ["Angular.png", "TS.png", "Bootstrap.png", "HTML.png", "css.png"],
@@ -181,7 +174,7 @@ async function seed() {
 
 
                 {
-                    id: "#5",
+                    order: "5",
                     title: "C.R.O.M.E Play",
                     description: "Game store event management system built with ASP.NET Core MVC, featuring event organization, member registration, database integration, and customer profile management.",
                     tech: ["NetCore.png", "JS.png", "Bootstrap.png", "css.png", "HTML.png"],
@@ -193,7 +186,7 @@ async function seed() {
 
 
                 {
-                    id: "#6",
+                    order: "6",
                     title: "Bit-School",
                     description: "This Angular project provides a much broader perspective on what I have learned about the framework. In this small application, we manage CRUD operations for a computer training academy.",
                     tech: ["Angular.png", "TS.png", "css.png", "Bootstrap.png", "HTML.png"],
@@ -205,7 +198,7 @@ async function seed() {
 
 
                 {
-                    id: "#7",
+                    order: "7",
                     title: "Popular Groups",
                     description: "A small interface for listing fictional bands, displaying their details and a list of concerts, all interconnected. It helped me greatly in taking my first steps with the MVC pattern.",
                     tech: ["Net.png", "css.png", "HTML.png"],
@@ -217,7 +210,7 @@ async function seed() {
 
 
                 {
-                    id: "#8",
+                    order: "8",
                     title: "Social Home",
                     description: "Residential community platform where users can manage personal profiles and communicate through a shared chat system. Built with JavaScript, HTML, and CSS.",
                     tech: ["JS.png", "css.png", "HTML.png"],
@@ -234,19 +227,19 @@ async function seed() {
 
             professionaltrajectory: [
 
-                { id: "13", img: "Diploma.png", date: "Oct - 2026", description: "Course - A2 English (Busuu)" },
-                { id: "12", img: "Diploma.png",date: "Aug - 2026", description: "Course - A1 English (Busuu)" },
-                { id: "11", img:"MasterTitle.png", date: "Jul - 2026", description:"Master - Full-Stack Development & Cloud Architectures (Tajamar)" },
-                { id: "10", img: "Certificate.png", date: "Jun - 2026", description:"Certification - Power Platform Associate (Microsoft)" },
-                { id: "9", img: "Certificate.png", date: "May - 2026", description:"Certification - AWS Associate (AWS)" },
-                { id: "8", img: "Certificate.png", date: "Apr - 2026", description:"Certification - Azure Associate (Microsoft)" },
-                { id: "7", img: "Certificate.png", date: "2025", description:"Certification - Power Platform Fundamentals (Microsoft)" },
-                { id: "6", img: "Diploma.png", date: "2024", description:"Course - Power Apps (Udemy)" },
-                { id: "5", img: "Diploma.png", date: "2024", description:"Course - Power Automate (Udemy)" },
-                { id: "4", img: "Diploma.png", date: "2024", description:"Course - Power Pages (Udemy)" },
-                { id: "3", img: "Diploma.png", date: "2024", description:"Course - Power Platform (Udemy)" },
-                { id: "2", img: "MasterTitle.png", date: "2013", description:"Master - Web Development (CEI)" },
-                { id: "1", img: "MasterTitle.png", date: "2012", description:"Master - Web Design (CEI)" },
+                { order: "13", img: "Diploma.png", date: "Oct - 2026", description: "Course - A2 English (Busuu)" },
+                { order: "12", img: "Diploma.png",date: "Aug - 2026", description: "Course - A1 English (Busuu)" },
+                { order: "11", img:"MasterTitle.png", date: "Jul - 2026", description:"Master - Full-Stack Development & Cloud Architectures (Tajamar)" },
+                { order: "10", img: "Certificate.png", date: "Jun - 2026", description:"Certification - Power Platform Associate (Microsoft)" },
+                { order: "9", img: "Certificate.png", date: "May - 2026", description:"Certification - AWS Associate (AWS)" },
+                { order: "8", img: "Certificate.png", date: "Apr - 2026", description:"Certification - Azure Associate (Microsoft)" },
+                { order: "7", img: "Certificate.png", date: "2025", description:"Certification - Power Platform Fundamentals (Microsoft)" },
+                { order: "6", img: "Diploma.png", date: "2024", description:"Course - Power Apps (Udemy)" },
+                { order: "5", img: "Diploma.png", date: "2024", description:"Course - Power Automate (Udemy)" },
+                { order: "4", img: "Diploma.png", date: "2024", description:"Course - Power Pages (Udemy)" },
+                { order: "3", img: "Diploma.png", date: "2024", description:"Course - Power Platform (Udemy)" },
+                { order: "2", img: "MasterTitle.png", date: "2013", description:"Master - Web Development (CEI)" },
+                { order: "1", img: "MasterTitle.png", date: "2012", description:"Master - Web Design (CEI)" },
                 
 
 
@@ -258,7 +251,7 @@ async function seed() {
 
             formaleducation: [
                 {
-                    id: "#1",
+                    order: "1",
                     title: "Master Full-Stack Development & Cloud Architectures",
                     description: "Training in Front‑End web development with Angular and React; Back‑End programming with C# and Node.js; database development with SQL Server, data access, and Entity Framework; web application development with ASP.NET Core; creation of cloud solutions in Microsoft Azure aligned with the AZ‑204 certification and in Amazon Web Services aligned with the DVA‑C02 certification; and development of enterprise solutions with Power Platform focused on the PL‑400 certification.",
                     image: "Tajamar.png",
@@ -273,7 +266,7 @@ async function seed() {
 
 
                 {
-                    id: "#2",
+                    order: "2",
                     title: "Master Web Development",
                     description: "Master in Web Development, focused on building dynamic applications and websites using PHP, HTML5, CSS3, and MySQL. It included the use of Apache as the web server and Atom as the primary code editor.",
                     link:"/image/CEICDW2.jpeg",
@@ -284,7 +277,7 @@ async function seed() {
 
 
                 {
-                    id: "#3",
+                    order: "3",
                     title: "Master Web Design",
                     description: "Master in Web Design, focused on creating user interfaces and website layouts using HTML5 and CSS3. The training covered responsive design principles, semantic structure, web accessibility, and best practices for layout design.",
                     link: "/image/CEICDW1.jpeg",
@@ -302,7 +295,7 @@ async function seed() {
 
 
                 {
-                    id: "#1",
+                    order: "1",
                     title: "Power Apps, Power Automate, and Power Pages",
                     description: "Additional training in Power Platform through Udemy courses, where I deepened my practical knowledge of Power Platform, Power Apps, Power Automate, and Power Pages. Although these courses were not official certifications, they provided a solid foundation and hands-on experience that I later strengthened and formalized while preparing for the PL-900 certification through Microsoft Learn's official learning paths.",
                     link: "/image/UdemyC.jpg",
@@ -322,7 +315,7 @@ async function seed() {
 
 
                 {
-                    id: "#1",
+                    order: "1",
                     image: "language.png",
                     title: "English",
                     level: "A2",
@@ -340,7 +333,7 @@ async function seed() {
 
 
                 {
-                    id: "#1",
+                    order: "1",
                     image: "linkedin.png",
                     title: "Linkedin",
                     link: "https://linkedin.com/in/luis-infantes-artdesign",
@@ -348,7 +341,7 @@ async function seed() {
                 },
 
                 {
-                    id: "#2",
+                    order: "2",
                     image: "github.png",
                     title: "Github",
                     link: "https://github.com/Luis-Infantes",

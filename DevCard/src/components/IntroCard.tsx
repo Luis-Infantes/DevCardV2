@@ -13,8 +13,8 @@ export const IntroCard: React.FC<IntroProps> = ({ data }) => {
 
             <div className="intro-grid">
                 <img
-                    src={`/image/${data.avatarimg}`}
-                    alt={`Logo de ${data.avatarimg}`}
+                    src={`/image/${data.image}`}
+                    alt={`Logo de ${data.image}`}
                     className="avatar-icon"
                     loading="lazy"
                     onError={(e) => {

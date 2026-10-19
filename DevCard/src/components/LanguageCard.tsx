@@ -13,7 +13,7 @@ export const LanguageCard: React.FC<LanguageProps> = ({ languages }) => {
                 {languages.map((language: Language) =>
 
 
-                    <div key={language.id} className="card-language">
+                    <div key={language.order} className="card-language">
 
 
                         <img

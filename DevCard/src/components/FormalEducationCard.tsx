@@ -17,7 +17,7 @@ export const FormnalEducationCard: React.FC<FormalEducationProps> = ({ formaledu
                 {formaleducation.map((education: FormalEducation) =>
 
 
-                    <div key={education.id} className="card-education">
+                    <div key={education.order} className="card-education">
 
 
                         <img

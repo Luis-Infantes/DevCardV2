@@ -1,10 +1,6 @@
 ﻿import { useEffect, useState } from "react";
 import { IntroCard } from "./components/IntroCard";
 import { ProjectCard } from "./components/ProjectCard";
-import { SkillBackCard } from "./components/SkillBackCard";
-import { SkillCloudCard } from "./components/SkillCloudCard";
-import { SkillFrontCard } from "./components/SkillFrontCard";
-import { SkillToolCard } from "./components/SkillToolCard";
 import { getDevCard } from "./services/devcard.service";
 import { CertificationCard } from "./components/CertificationCard";
 import { ProfessionalTrajectoryCard } from "./components/ProfessionalTrajectoryCard";
@@ -13,6 +9,7 @@ import { AdditionalTrainingCard } from "./components/AdditionalTrainingCard";
 import { LanguageCard } from "./components/LanguageCard";
 import { NetworkCard } from "./components/NetworkCard";
 import { Footer } from "./components/Footer";
+import { Skills } from "./components/Skills";
 
 
 
@@ -54,16 +51,10 @@ export const App = () => {
                 <CertificationCard certifications={data.certification} />
             </div>
 
-
             <div className="custom-card">
                 <h2>Technical Skills</h2>
-                <div className="skills-grid">
-                   
-                    <SkillFrontCard skills={data.skillsfront} />                
-                    <SkillBackCard skills={data.skillsback} />
-                    <SkillCloudCard skills={data.skillscloud} />
-                    <SkillToolCard skills={data.skillstool} />
-                </div>
+
+                    <Skills skills={data.skills} />
             </div>
 
 
