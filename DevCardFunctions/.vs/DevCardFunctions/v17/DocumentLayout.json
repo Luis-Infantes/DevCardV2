@@ -112,8 +112,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-16T08:34:17.822Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -136,7 +135,7 @@
               "RelativeDocumentMoniker": "DevCardFunctions\\Services\\GraphService.cs",
               "ToolTip": "C:\\Tajamar\\DevCard02\\DevCardFunctions\\DevCardFunctions\\Services\\GraphService.cs",
               "RelativeToolTip": "DevCardFunctions\\Services\\GraphService.cs",
-              "ViewState": "AgIAAAACAAAAAAAAAAAIwAkCAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAswFEAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-11T16:21:28.003Z",
               "IsPinned": true,
@@ -153,8 +152,7 @@
               "ViewState": "AgIAACAAAAAAAAAAAAAowFMAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-10T11:05:36.834Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -234,8 +232,7 @@
               "RelativeToolTip": "DevCardFunctions\\local.settings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-09-10T11:50:50.582Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-10T11:50:50.582Z"
             },
             {
               "$type": "Document",

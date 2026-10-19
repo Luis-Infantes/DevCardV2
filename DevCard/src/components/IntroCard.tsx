@@ -13,7 +13,7 @@ export const IntroCard: React.FC<IntroProps> = ({ data }) => {
 
             <div className="intro-grid">
                 <img
-                    src={`/image/${data.image}`}
+                    src={data.image}
                     alt={`Logo de ${data.image}`}
                     className="avatar-icon"
                     loading="lazy"
