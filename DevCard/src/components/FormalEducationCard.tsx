@@ -14,7 +14,9 @@ export const FormnalEducationCard: React.FC<FormalEducationProps> = ({ formaledu
 
             <div className="education-grid">
 
-                {formaleducation.map((education: FormalEducation) =>
+                {[...formaleducation]
+                    .sort((a, b) => b.order - a.order)
+                    .map((education: FormalEducation) =>
 
 
                     <div key={education.order} className="card-education">
