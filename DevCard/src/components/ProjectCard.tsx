@@ -43,7 +43,7 @@ export const ProjectCard: React.FC<ProjectProps> = ({ projects }) => {
                             {project.tech.map((techIcon: string, index: number) => (
                                 <img
                                     key={index}
-                                    src={`/image/${techIcon}`}
+                                    src={techIcon}
                                     alt={`Logo de ${techIcon}`}
                                     className="tech-icon"
                                     loading="lazy"
