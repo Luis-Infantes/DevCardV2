@@ -21,7 +21,7 @@ export const FormnalEducationCard: React.FC<FormalEducationProps> = ({ formaledu
 
 
                         <img
-                            src={`/image/${education.image}`}
+                            src={education.image}
                             alt={`Logo de ${education.title}`}
                             className="education-icon"
                             loading="lazy"

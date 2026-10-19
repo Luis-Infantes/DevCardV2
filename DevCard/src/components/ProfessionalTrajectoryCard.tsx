@@ -23,7 +23,7 @@ export const ProfessionalTrajectoryCard: React.FC<ProfessionalTrajectoryProps> =
                       
 
                                 <img
-                                    src={`/image/${trayectory.image}`}
+                                    src={trayectory.image}
                                     alt={`Logo de ${trayectory.image}`}
                                     className="professional-icon"
                                     loading="lazy"

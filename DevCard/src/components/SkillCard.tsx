@@ -16,7 +16,7 @@ export const SkillCard: React.FC<SkillCardProps> = ({ title, skills }) => {
                     <li key={skill.order} className="d-flex align-items-center">
                         <div className="skill-style">
                             <img
-                                src={`/image/${skill.image}`}
+                                src={skill.image}
                                 alt={`Logo de ${skill.name}`}
                                 className="skill-icon"
                                 loading="lazy"

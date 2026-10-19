@@ -17,7 +17,7 @@ export const LanguageCard: React.FC<LanguageProps> = ({ languages }) => {
 
 
                         <img
-                            src={`/image/${language.image}`}
+                            src={language.image}
                             alt={`Logo de ${language.title}`}
                             className="language-icon"
                             loading="lazy"

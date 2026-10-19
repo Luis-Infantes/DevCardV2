@@ -20,7 +20,7 @@ export const AdditionalTrainingCard: React.FC<AdditionalTrainingProps> = ({ addi
                     <div key={addtional.order} className="card-training">
 
                         <img
-                            src={`/image/${addtional.image}`}
+                            src={addtional.image}
                             alt={`Logo de ${addtional.title}`}
                             className="training-icon"
                             loading="lazy"

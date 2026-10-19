@@ -25,7 +25,7 @@ export const CertificationCard: React.FC<CertificationProps> = ({ certifications
                         
 
                             <img
-                                src={`/image/${certifications.image}`}
+                                src={certifications.image}
                                 alt={`Logo de ${certifications.title}`}
                                 className="certification-icon"
                                 loading="lazy"

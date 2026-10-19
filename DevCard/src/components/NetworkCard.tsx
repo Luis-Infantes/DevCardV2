@@ -17,7 +17,7 @@ export const NetworkCard: React.FC<NetworkProps> = ({ networks }) => {
                        
 
                             <img
-                                src={`/image/${network.image}`}
+                                src={network.image}
                                 alt={`Logo de ${network.title}`}
                                 className="network-icon"
                                 loading="lazy"
