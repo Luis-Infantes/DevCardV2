@@ -3,9 +3,10 @@
     "",
     "\\public",
     "\\src",
+    "\\src\\components",
     "\\src\\services",
     "\\src\\types"
   ],
-  "SelectedNode": "\\src\\services\\devcard.service.ts",
+  "SelectedNode": "\\src\\types\\types.ts",
   "PreviewInSolutionExplorer": false
 }

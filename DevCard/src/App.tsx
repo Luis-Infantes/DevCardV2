@@ -22,7 +22,7 @@ import { Skills } from "./components/Skills";
 export const App = () => {
 
 
-    //Conexion con la Api para conectar con los datos de la BD de Mongo
+    //Conexion con la Api para conectar con los datos de la BD de Sharepoint
 
     const [data, setData] = useState<any>(null);
 
@@ -48,7 +48,7 @@ export const App = () => {
 
             <div className="custom-card">
                 <h2>Certificates</h2>
-                <CertificationCard certifications={data.certification} />
+                <CertificationCard certifications={data.certifications} />
             </div>
 
             <div className="custom-card">
@@ -65,29 +65,29 @@ export const App = () => {
 
             <div className="custom-card">
                 <h2>Professional Tarjectory</h2>
-                <ProfessionalTrajectoryCard data={data.professionaltrajectory} />
+                <ProfessionalTrajectoryCard data={data.professionalTrajectory} />
             </div>
 
 
             <div className="custom-card">
                 <h2>Education & Formation</h2>
-                <FormnalEducationCard formaleducation={data.formaleducation} />
+                <FormnalEducationCard formaleducation={data.formalEducation} />
 
             </div>
 
             <div className="custom-card">
                 <h2>Additional Training</h2>
-                <AdditionalTrainingCard additionaltraining={data.additionaltraining} />
+                <AdditionalTrainingCard additionaltraining={data.additionalTraining} />
             </div>
 
             <div className="custom-card">
                 <h2>Languages</h2>
-                <LanguageCard languages={data.language} />
+                <LanguageCard languages={data.languages} />
             </div>
 
             <div className="custom-card">
                 <h2>Networks</h2>
-                <NetworkCard networks={data.network} />
+                <NetworkCard networks={data.networks} />
             </div>
 
             <div className="custom-card">
