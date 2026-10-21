@@ -25,7 +25,7 @@ export const IntroCard: React.FC<IntroProps> = ({ data }) => {
                 />
 
                 
-                <h1>{data.fullname}</h1>
+                <h1>{data.fullName}</h1>
                 <h5>{data.title}</h5>
                 <p>{data.description}</p>
 
