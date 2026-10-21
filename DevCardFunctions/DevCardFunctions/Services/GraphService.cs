@@ -210,7 +210,8 @@ public class GraphService
                 Description = fields?["project_description"]?.ToString(),
                 Link = fields?["project_link"]?.ToString(),
                 LinkVideo = fields?["project_videolink"]?.ToString(),
-                Image = fields?["project_image"]?.ToString(),
+                //Image = fields?["project_image"]?.ToString(),
+                Picture = fields?["project_picture"]?.ToString(),
 
             });
         }

@@ -16,7 +16,8 @@ namespace DevCardFunctions.Models
 
         public string? LinkVideo { get; set; }
 
-        public string? Image { get; set; }
+        //public string? Image { get; set; }
+        public string? Picture { get; set; }
 
         public List<string> Tech { get; set; } = [];
 

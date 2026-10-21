@@ -25,7 +25,7 @@ export const ProjectCard: React.FC<ProjectProps> = ({ projects }) => {
 
 
                         <img
-                            src={project.image}
+                            src={project.picture}
                             alt={`Logo de ${project.title}`}
                             className="project-img"
                             loading="lazy"
