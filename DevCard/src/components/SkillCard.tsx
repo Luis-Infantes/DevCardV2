@@ -20,9 +20,7 @@ export const SkillCard: React.FC<SkillCardProps> = ({ title, skills }) => {
                                 alt={`Logo de ${skill.name}`}
                                 className="skill-icon"
                                 loading="lazy"
-                                onError={(e) => {
-                                    (e.currentTarget as HTMLImageElement).src = "/images/_fallback.png";
-                                }}
+
                             />
                             <h5>{skill.name}</h5>
                         </div>

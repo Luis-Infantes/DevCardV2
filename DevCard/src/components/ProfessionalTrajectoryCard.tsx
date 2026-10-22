@@ -27,9 +27,7 @@ export const ProfessionalTrajectoryCard: React.FC<ProfessionalTrajectoryProps> =
                                     alt={`Logo de ${trayectory.image}`}
                                     className="professional-icon"
                                     loading="lazy"
-                                    onError={(e) => {
-                                        (e.currentTarget as HTMLImageElement).src = "/images/_fallback.png";
-                                    }}
+
                                 />
 
                                 <h5>

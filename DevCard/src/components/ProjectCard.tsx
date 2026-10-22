@@ -47,9 +47,7 @@ export const ProjectCard: React.FC<ProjectProps> = ({ projects }) => {
                                     alt={`Logo de ${techIcon}`}
                                     className="tech-icon"
                                     loading="lazy"
-                                    onError={(e) => {
-                                        (e.currentTarget as HTMLImageElement).src = "/images/_fallback.png";
-                                    }}
+
                                 />
                             ))}
                         </div>

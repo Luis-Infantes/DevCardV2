@@ -17,11 +17,7 @@ export const IntroCard: React.FC<IntroProps> = ({ data }) => {
                     alt={`Logo de ${data.image}`}
                     className="avatar-icon"
                     loading="lazy"
-                    onError={(e) => {
-                        // Fallback si la imagen no existe
-                        
-                        (e.currentTarget as HTMLImageElement).src = "/images/_fallback.png";
-                    }}
+
                 />
 
                 

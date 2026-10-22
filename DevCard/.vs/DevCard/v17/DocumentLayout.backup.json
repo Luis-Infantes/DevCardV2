@@ -157,10 +157,11 @@
               "RelativeDocumentMoniker": "src\\components\\IntroCard.tsx",
               "ToolTip": "C:\\Tajamar\\DevCard02\\DevCard\\src\\components\\IntroCard.tsx",
               "RelativeToolTip": "src\\components\\IntroCard.tsx",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2026-09-28T13:35:30.229Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -196,7 +197,7 @@
               "RelativeDocumentMoniker": "src\\components\\ProjectCard.tsx",
               "ToolTip": "C:\\Tajamar\\DevCard02\\DevCard\\src\\components\\ProjectCard.tsx",
               "RelativeToolTip": "src\\components\\ProjectCard.tsx",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2026-09-27T19:01:19.271Z",
               "IsPinned": true,
@@ -278,9 +279,10 @@
               "RelativeDocumentMoniker": "src\\types\\types.ts",
               "ToolTip": "C:\\Tajamar\\DevCard02\\DevCard\\src\\types\\types.ts",
               "RelativeToolTip": "src\\types\\types.ts",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAAAFgAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAFwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-09-27T19:04:49.71Z"
+              "WhenOpened": "2026-09-27T19:04:49.71Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
