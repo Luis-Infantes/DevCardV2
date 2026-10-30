@@ -62,7 +62,7 @@ export const ProjectCard: React.FC<ProjectProps> = ({ projects }) => {
                         </a>
 
                         <a
-                            href={project.linkvideo}
+                            href={project.videolink}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="btn btn-primary"

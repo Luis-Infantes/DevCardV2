@@ -209,7 +209,7 @@ public class GraphService
                 Title = fields?["project_title"]?.ToString(),
                 Description = fields?["project_description"]?.ToString(),
                 Link = fields?["project_link"]?.ToString(),
-                LinkVideo = fields?["project_videolink"]?.ToString(),
+                VideoLink = fields?["project_videolink"]?.ToString(),
                 Image = fields?["project_image"]?.ToString(),
 
 

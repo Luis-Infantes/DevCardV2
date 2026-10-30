@@ -14,7 +14,7 @@ namespace DevCardFunctions.Models
 
         public string? Link { get; set; }
 
-        public string? LinkVideo { get; set; }
+        public string? VideoLink { get; set; }
 
         public string? Image { get; set; }
       

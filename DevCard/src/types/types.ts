@@ -88,7 +88,7 @@ export type Project = {
     description: string;
     tech: string[];
     link: string;
-    linkvideo: string;
+    videolink: string;
     image: string;
  
  
