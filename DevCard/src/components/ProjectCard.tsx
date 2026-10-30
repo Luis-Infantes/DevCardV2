@@ -61,14 +61,26 @@ export const ProjectCard: React.FC<ProjectProps> = ({ projects }) => {
                             GitHub Repository
                         </a>
 
+
                         <a
-                            href={project.videoLink}
+                            href={project.video}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="btn btn-primary"
                         >
-                            Video Tutorial
+                            GitHub Repository
                         </a>
+
+
+
+                        {/*<a*/}
+                        {/*    href={project.videoLink}*/}
+                        {/*    target="_blank"*/}
+                        {/*    rel="noopener noreferrer"*/}
+                        {/*    className="btn btn-primary"*/}
+                        {/*>*/}
+                        {/*    Video Tutorial*/}
+                        {/*</a>*/}
 
 
 
